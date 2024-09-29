@@ -1,0 +1,251 @@
+{
+    "customers": [
+      {
+        "customer_id": "C001",
+        "name": "John Doe",
+        "policy_id": "P1001",
+        "policy_type": "Health Insurance",
+        "query": "How much is my deductible?"
+      },
+      {
+        "customer_id": "C002",
+        "name": "Jane Smith",
+        "policy_id": "P1002",
+        "policy_type": "Auto Insurance",
+        "query": "What does my auto insurance cover?"
+      },
+      {
+        "customer_id": "C003",
+        "name": "Alice Brown",
+        "policy_id": "P1003",
+        "policy_type": "Life Insurance",
+        "query": "Can I increase my life insurance coverage?"
+      },
+      {
+        "customer_id": "C004",
+        "name": "Bob Johnson",
+        "policy_id": "P1004",
+        "policy_type": "Home Insurance",
+        "query": "Does my home insurance cover fire damage?"
+      },
+      {
+        "customer_id": "C005",
+        "name": "Charlie Davis",
+        "policy_id": "P1001",
+        "policy_type": "Health Insurance",
+        "query": "Are pre-existing conditions covered?"
+      },
+      {
+        "customer_id": "C006",
+        "name": "Diana Wilson",
+        "policy_id": "P1002",
+        "policy_type": "Auto Insurance",
+        "query": "How can I file a claim?"
+      },
+      {
+        "customer_id": "C007",
+        "name": "Ethan Clark",
+        "policy_id": "P1003",
+        "policy_type": "Life Insurance",
+        "query": "What is my life insurance payout limit?"
+      },
+      {
+        "customer_id": "C008",
+        "name": "Fiona Harris",
+        "policy_id": "P1004",
+        "policy_type": "Home Insurance",
+        "query": "What is my deductible for home insurance?"
+      },
+      {
+        "customer_id": "C009",
+        "name": "George Lewis",
+        "policy_id": "P1001",
+        "policy_type": "Health Insurance",
+        "query": "Is outpatient care covered?"
+      },
+      {
+        "customer_id": "C010",
+        "name": "Hannah Miller",
+        "policy_id": "P1002",
+        "policy_type": "Auto Insurance",
+        "query": "Is theft covered by my auto insurance?"
+      },
+      {
+        "customer_id": "C011",
+        "name": "Ian Walker",
+        "policy_id": "P1003",
+        "policy_type": "Life Insurance",
+        "query": "Can I change my beneficiary?"
+      },
+      {
+        "customer_id": "C012",
+        "name": "Jenna Young",
+        "policy_id": "P1004",
+        "policy_type": "Home Insurance",
+        "query": "Does my policy cover earthquake damage?"
+      },
+      {
+        "customer_id": "C013",
+        "name": "Kevin Carter",
+        "policy_id": "P1001",
+        "policy_type": "Health Insurance",
+        "query": "What is the maximum annual payout?"
+      },
+      {
+        "customer_id": "C014",
+        "name": "Laura Collins",
+        "policy_id": "P1002",
+        "policy_type": "Auto Insurance",
+        "query": "Does my policy cover personal injury?"
+      },
+      {
+        "customer_id": "C015",
+        "name": "Mike Anderson",
+        "policy_id": "P1003",
+        "policy_type": "Life Insurance",
+        "query": "How do I renew my life insurance policy?"
+      },
+      {
+        "customer_id": "C016",
+        "name": "Nina Green",
+        "policy_id": "P1004",
+        "policy_type": "Home Insurance",
+        "query": "Is my roof covered under my home insurance?"
+      },
+      {
+        "customer_id": "C017",
+        "name": "Owen Baker",
+        "policy_id": "P1001",
+        "policy_type": "Health Insurance",
+        "query": "Are prescription drugs covered?"
+      },
+      {
+        "customer_id": "C018",
+        "name": "Paula Scott",
+        "policy_id": "P1002",
+        "policy_type": "Auto Insurance",
+        "query": "How do I add another driver to my policy?"
+      },
+      {
+        "customer_id": "C019",
+        "name": "Quincy Adams",
+        "policy_id": "P1003",
+        "policy_type": "Life Insurance",
+        "query": "What happens if I miss a premium payment?"
+      },
+      {
+        "customer_id": "C020",
+        "name": "Rachel Brooks",
+        "policy_id": "P1004",
+        "policy_type": "Home Insurance",
+        "query": "Is flood damage covered?"
+      }
+    ],
+    "policies": [
+      {
+        "policy_id": "P1001",
+        "policy_type": "Health Insurance",
+        "monthly_premium": 200.0,
+        "deductible": 500.0,
+        "coverage": "Inpatient: 50000, Outpatient: 10000, Drugs: 80% after deductible",
+        "max_annual_payout": 100000.0,
+        "exclusions": "Cosmetic surgeries, fertility treatments"
+      },
+      {
+        "policy_id": "P1002",
+        "policy_type": "Auto Insurance",
+        "monthly_premium": 150.0,
+        "deductible": 1000.0,
+        "coverage": "Collision: 30000, Comprehensive: 15000, Personal Injury: 5000",
+        "max_annual_payout": null,
+        "exclusions": "Intentional damage, driving under influence"
+      },
+      {
+        "policy_id": "P1003",
+        "policy_type": "Life Insurance",
+        "monthly_premium": 100.0,
+        "coverage": 500000.0,
+        "term": "30 years",
+        "beneficiaries": "Can be changed anytime",
+        "premium_grace_period": "30 days",
+        "exclusions": "Death due to illegal activities or suicide within the first two years"
+      },
+      {
+        "policy_id": "P1004",
+        "policy_type": "Home Insurance",
+        "monthly_premium": 120.0,
+        "deductible": 1500.0,
+        "coverage": "Property damage: 200000 (fire, theft, vandalism), Liability: 100000, Additional Structures: 50000",
+        "max_annual_payout": null,
+        "exclusions": "Flood, earthquake, intentional damage"
+      }
+    ],
+    "faqs": [
+      {
+        "policy_type": "Health Insurance",
+        "question": "How much is my deductible?",
+        "answer": "Your deductible is $500 annually."
+      },
+      {
+        "policy_type": "Health Insurance",
+        "question": "Are pre-existing conditions covered?",
+        "answer": "Pre-existing conditions are covered after 12 months of continuous coverage."
+      },
+      {
+        "policy_type": "Health Insurance",
+        "question": "What is the maximum annual payout for my policy?",
+        "answer": "The maximum annual payout is $100,000."
+      },
+      {
+        "policy_type": "Health Insurance",
+        "question": "Are prescription drugs covered?",
+        "answer": "Yes, prescription drugs are covered up to 80% after the deductible."
+      },
+      {
+        "policy_type": "Auto Insurance",
+        "question": "What does my auto insurance cover?",
+        "answer": "It covers collision, comprehensive damage, and personal injury."
+      },
+      {
+        "policy_type": "Auto Insurance",
+        "question": "How can I file a claim?",
+        "answer": "You can file a claim via our mobile app or website."
+      },
+      {
+        "policy_type": "Auto Insurance",
+        "question": "Is theft covered by my auto insurance?",
+        "answer": "Yes, theft is covered under comprehensive coverage."
+      },
+      {
+        "policy_type": "Life Insurance",
+        "question": "Can I increase my life insurance coverage?",
+        "answer": "Yes, you can increase coverage by contacting customer service."
+      },
+      {
+        "policy_type": "Life Insurance",
+        "question": "Can I change my beneficiary?",
+        "answer": "Yes, beneficiaries can be updated anytime."
+      },
+      {
+        "policy_type": "Life Insurance",
+        "question": "What happens if I miss a premium payment?",
+        "answer": "You have a 30-day grace period to make the payment."
+      },
+      {
+        "policy_type": "Home Insurance",
+        "question": "Does my home insurance cover fire damage?",
+        "answer": "Yes, fire damage is covered up to $200,000."
+      },
+      {
+        "policy_type": "Home Insurance",
+        "question": "Is flood damage covered?",
+        "answer": "No, flood damage is excluded from your policy."
+      },
+      {
+        "policy_type": "Home Insurance",
+        "question": "Is my roof covered under my home insurance?",
+        "answer": "Yes, roof damage is covered under property damage."
+      }
+    ]
+  }
+  
